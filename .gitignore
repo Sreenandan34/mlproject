@@ -1,1 +1,157 @@
+# -----------------------------
+# Python Bytecode
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# -----------------------------
+# Package Management
+# -----------------------------
+*.egg-info/
+.eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# -----------------------------
+# Build and Distribution
+# -----------------------------
+build/
+dist/
+develop-eggs/
+downloads/
+sdist/
+var/
+*.manifest
+*.spec
+
+# -----------------------------
+# PyInstaller
+# -----------------------------
+*.spec
+
+# -----------------------------
+# Unit Test / Coverage
+# -----------------------------
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+hypothesis/
+
+# -----------------------------
+# Type Checkers
+# -----------------------------
+.mypy_cache/
+.pytype/
+.pyre/
+
+# -----------------------------
+# Jupyter Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# VSCode / IDEs / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# -----------------------------
+# SageMath
+# -----------------------------
+*.sage.py
+
+# -----------------------------
+# PyCharm
+# -----------------------------
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# -----------------------------
+# Spyder
+# -----------------------------
+.spyderproject
+.spyproject
+
+# -----------------------------
+# Model Weights / Data Files
+# -----------------------------
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.pt
+*.onnx
+*.ckpt
+*.sav
+*.pb
+
+# -----------------------------
+# Dataset Files (Optional: keep only small test CSVs in repo)
+# -----------------------------
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.parquet
+*.zip
+*.gz
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# -----------------------------
+# Output Files
+# -----------------------------
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+
+# -----------------------------
+# macOS / Windows
+# -----------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# -----------------------------
+# Others
+# -----------------------------
+.env
+.env.*
+*.env
+*.secret
 
